@@ -15,7 +15,7 @@ public class NetworkUtil {
                 .build();
         return client;
     }
-        public static String baseURL = "http://14.139.180.151/";
+        public static String baseURL = "$URL";
         public static Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(baseURL)
                 .client(getClientInstance())
